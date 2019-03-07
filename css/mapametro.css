@@ -1,0 +1,30 @@
+
+.tucuruvi, .parada, .jardimsp, .santana, .carandiru, .tiete, .armenia, .tiradentes, .luz, .saobento, .se,
+ .liberdade, .saojoaquim, .vergueiro, .paraiso, .anarosa, .vilamariana, .santacruz, .praca, .saude, 
+.saojudas, .conceicao, .jabaquara, .vilamadalena, .sumare, .clinicas, .consolacao, .trianon, .brigadeiro, .klabin, .imigrantes, .altoipiranga, .sacoma,
+ .tamanduatei, .vilaprudente, .oratorio, .saolucas, .camilohaddad, .vilatolstoi, .vilauniao,.barrafunda, .maldeodoro, .santacecilia, .republica, .anhangabau, .pedro2, .bras, .bresser, .belem, .tatuape,
+ .carrao,  .penha, .vilamatilde, .guilhermina, .patriarca, .arturalvim, .itaquera, .butanta, .pinheiros, .farialima, .fradique, .oscarfreire, .paulista, .mackenzie,
+  .capao, .campolimpo, .belezas, .giovanni, .santoamaro, .largo13, .adolfopinheiro, .altodaboavista, .borbagato, .brooklin, 
+.eucaliptos, .moema  {
+	display: none;
+    position: fixed;
+    width: 600px;
+    height: 300px;
+    background-color: #AAAAAA;
+    top: 50%;
+    margin-top: -100px; 
+    left: 50%;
+    margin-left: -200px;
+    padding: 20px;
+    border-radius: 6px;
+}
+a{
+	text-decoration: none;
+	
+}
+.fechar{
+	float: right;
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+}
