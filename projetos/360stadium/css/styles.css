@@ -1,0 +1,103 @@
+@media only screen and (min-width: 601px) {
+    body {
+        background-color: black;
+    }
+    iframe {
+        margin-left: 0%;
+        
+        
+    }
+    .stad {
+        margin-top: 4%;
+        border: 10px solid black;
+        border-radius: 5px;
+    }
+    .russo{
+        font-size: 200%;
+        font-family: 'Russo One', sans-serif;
+    }
+    .orbitron{
+        font-size: 250%;
+        font-family: 'Orbitron', sans-serif;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+    }
+    iframe {
+        max-width: 100%;
+    }
+    .stad {
+        margin-top: 20%;
+    }
+    .russo{
+        font-size: 100%;
+        font-family: 'Russo One', sans-serif;
+    }
+    .orbitron{
+        font-size: 100%;
+        font-family: 'Orbitron', sans-serif;
+    }
+    
+  }
+
+.header {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    height: 80px;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: red;
+    height: 80px;
+    bottom: 0;
+    border-radius: 5px, 5px, 0px, 0px;
+}
+
+.conteudo {
+    background-color: rgba(95, 94, 94, 0.9);
+    height: 780px;
+}
+
+.stadname {
+    margin-top: 5px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: #f5edff;
+}
+
+.footertxt {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: #f5edff;
+}
+
+.footerlink {
+    
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: #f5edff;
+}
+.central {
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    border-collapse: collapse;
+    
+}
+table, th, tr, td {
+    border: 1px solid white;
+    font-family: 'Russo One', sans-serif;
+    color: #f5edff;
+    
+}
+.disclaimer {
+    font-size: 60%;
+    color: white;
+}
