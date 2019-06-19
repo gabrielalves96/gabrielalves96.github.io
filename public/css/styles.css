@@ -49,6 +49,7 @@ body {
 #email img {
     float: right;
     margin-right: 5px;
+    bottom: 0;
 }
 
 #email-popup {
