@@ -9,7 +9,7 @@ body {
    /* background-color: #1D095F; */
    background: #060115;
    font-family: 'Iceland', cursive;
-    height: 100%;
+   
 }
 
 #fixed-header{
@@ -48,7 +48,7 @@ body {
 }
 
 #email img {
-    align-content: center;
+    float: right;
     margin-right: 5px;
     bottom: 0px;
 }
