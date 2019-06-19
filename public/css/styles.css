@@ -48,7 +48,7 @@ body {
 }
 
 #email img {
-    float: right;
+    align-content: center;
     margin-right: 5px;
     bottom: 0px;
 }
