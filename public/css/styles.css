@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    
+}
+body {
+   /* background-color: #1D095F; */
+   background: #060115;
+   font-family: 'Iceland', cursive;
+}
+
+#fixed-header{
+    padding-top: 30px;
+    color: #fafafa;
+    
+}
+
+#fixed-header #myname {
+    font-size: 25px;
+}
+
+#fixed-header a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+#fixed-header #navigation {
+    float: right;
+    margin-right: 5px;
+}
+
+#bigname {
+
+    color: #30205f;
+    text-align: center;
+    height: 550px;
+    
+}
+
+#bigname #animatedname {
+    font-size: 40px;
+    animation: animacaonome 4s ;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+#email img {
+    float: right;
+    margin-right: 5px;
+}
+
+#email-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #30205f;
+    z-index: 9;
+    background-color: #fafafa;
+    padding: 3px;
+  }
+
+#email-popup button {
+    border-radius: 5px;
+    background: #30205f;
+    color: #fafafa;
+    text-align: center;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    #email img {
+        max-width: 5%;
+    }
+}
+@media only screen and (min-width: 601px) {
+    #email img {
+        max-width: 2%;
+    }
+}
+
+@keyframes animacaonome {
+    from {
+        opacity: 0;
+        top: 0px;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    }
+    to {
+        opacity: 1;
+        top: 40%;
+        text-shadow: 0 0 8px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 30px #ff00de, 0 0 50px #ff00de, 0 0 60px #ff00de, 0 0 75px #ff00de, 0 0 100px #ff00de;
+    }
+}

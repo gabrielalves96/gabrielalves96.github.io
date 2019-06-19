@@ -1,129 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang='pt-br'>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./public/css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Iceland&display=swap" rel="stylesheet"> 
+        <title>Gabriel Alves</title>
+    </head>
+    <body>
+        <header id="fixed-header">
+            <span id="myname">&#128023; Gabriel Alves</span>
+            <span id="navigation">
+                <a href='https://www.behance.net/gabrielalvesd' target="blank">&#9749; Portfólio </a>
+            </span>
+        </header>
 
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Gabriel Alves</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <div id='bigname'>
+            <div id='animatedname'>
+                <h1>Gabriel Alves</h1>
+                <a href='https://github.com/gabrielalves96' target='blank'><img src='./public/img/github.png'></a>
+                
+            </div>
+            
+        </div>
 
-	<script type="text/javascript">
-		$(document).ready(function () {
-			$("#nomep").animate({ marginLeft: "20px" }, 5000);
-			$("#passarmouse1").hover(function () {
-				$(".col-md-5").css("background-image", "url(imgs/smartphone.jpg)");
-				$(".col-md-5").css("background-size", "475px 400px");
+        <div id='email'>
+                <a href='#' onclick='openPopup()' ><img src='./public/img/email.png'></a>
+        </div>
 
-			});
-			$("#passarmouse2").hover(function () {
-				$(".col-md-5").css("background-image", "url(imgs/metrosp.jpg)");
-				$(".col-md-5").css("background-size", "475px 400px");
-
-			});
-			$("#passarmouse3").hover(function () {
-				$(".col-md-5").css("background-image", "url(imgs/stadium.jpg)");
-				$(".col-md-5").css("background-size", "475px 400px");
-			});
-		});
-	</script>
-
-</head>
-
-<body style="background-color: #111111">
-	<div>
-		<div class="container">
-
-			<!-- header -->
-
-			<div class="row">
-				<div class="col-md-12" style="background-color: #001f3f; color: #FF851B; border-radius: 5px">
-					<h1 id="nomep" style="text-align: left; font-family: 'Montserrat', sans-serif; ">
-						Gabriel Alves
-					</h1>
-				</div>
-
-			</div>
-			<div class="row">
-				<div class="col-md-12" style="background-color: #FF851B; color: #001f3f; text-align: right; border-radius: 5px">
-					<a href="index.html" style="text-decoration: none; color:#001f3f ">Inicio</a> -
-					<a href="projetos.html" style="text-decoration: none; color:#001f3f ">Portfólio</a> -
-					<a href="contato.html" style="text-decoration: none; color:#001f3f ">Contato</a>
-				</div>
-			</div>
-
-			<!-- conteudo -->
-
-			<div class="row">
-				<hr>
-			</div>
-			<div class="row">
-				<div class="col-md-12" style="border-radius: 10px 10px 0px 0px; background-color: #FF851B; height: 50px;"></div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6" style="background-color: #AAAAAA; color: #001f3f; text-align: left;  height: 380px; padding-top: 10px; ">
-					<br>
-					<h1>Sobre mim... </h1> <br>
-					<h3>Estudante de Análise e Desenvolvimento de Sistemas. Apaixonado por desenvolvimento web, jogos e filmes.
-						Buscando sempre aprender mais.</h3>
-				</div>
-				<div class="col-sm-6" style="background-image: url(imgs/code.jpg); color: #001f3f; text-align: left; border-radius: 5px; height: 380px">
-
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12" style="border-radius: 0px 0px 10px 10px; background-color: #FF851B; height: 50px;"></div>
-			</div>
-
-			<div class="row">
-				<hr>
-			</div>
-			
-			
-			<!-- footer -->
-
-			<div class="row">
-				<div class="col-md-4" style="background-color:#FF851B; height: 80px; border-radius: 5px 0px 0px 5px;">
-					<a href="http://twitter.com/nodeEmoji" target="_blanket"><img src="imgs/twitter.png" width="10%"></a>
-					<a href="https://github.com/gabrielalves96" target="_blanket"><img src="imgs/github.png" width="8%"></a>
-
-					
-				</div>
-
-				<div class="col-md-4" style="background-color:#FF851B; height: 80px;">
-
-				</div>
-				<div class="col-md-4" style=" font-size: 15px; text-align: center; background-color:#FF851B; height: 80px; border-radius: 0px 5px 5px 0px;">
-
-						
-						<ul class="list-unstyled">
-					          <li>
-					            <a href="index.html" style="text-decoration: none; color:#001f3f ">Inicio </a> 
-					          </li>
-					          <li>
-					            <a href="projetos.html" style="text-decoration: none; color:#001f3f ">Portfólio </a>
-					          </li>
-					          <li>
-					            <a href="contato.html" style="text-decoration: none; color:#001f3f ">Contato</a>
-					          </li>
-					          
-        				</ul>
-					</div>
-			</div>
-			<div class="row">
-
-				<div class="col-md-12" style="background-color: #001f3f; color:#FF851B ; text-align: center; height: 45px; border-radius: 5px; ">
-
-					Página em desenvolvimento. Gabriel Alves. 2018.
-
-				</div>
-
-			</div>
-
-		</div>
-	</div>
-</body>
-
+        <div id='email-popup'>
+            <h3>Email</h3>
+            <p>gabalvesilva@gmail.com</p>
+            <button onclick='closePopup()'>Fechar</button>
+        </div>
+            
+        <script src='./public/js/main.js'></script>
+    </body>
 </html>
