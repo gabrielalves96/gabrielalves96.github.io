@@ -19,5 +19,6 @@ axios.get('https://gabrielalves96.github.io/test.json')
     })
     .catch( (err) =>{
         console.log(err);
-        document.getElementById('stadiumName').innerHTML = 'Oh no! No stadium found. Please refresh the page!' ;
+        document.location.reload(true);
+        //document.getElementById('stadiumName').innerHTML = 'Oh no! No stadium found. Please refresh the page!' ;
     });
