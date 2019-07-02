@@ -36,7 +36,7 @@ body {
 
     color: #30205f;
     text-align: center;
-    height: 550px;
+
     
 }
 
@@ -51,7 +51,7 @@ body {
     float: right;
     margin-right: 5px;
     bottom: 0px;
-    z-index: 9;
+    display: fixed;
 }
 
 #email-popup {
@@ -74,12 +74,50 @@ body {
 }
 @media only screen and (max-width: 600px) {
     #email img {
-        max-width: 5%;
+        max-width: 6%;
+    }
+    #bigname {
+
+        height: 600px;
+        
     }
 }
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 601px) and (max-width: 800px) {
     #email img {
-        max-width: 2%;
+        max-width: 3%;
+    }
+    #bigname {
+
+        height: 850px;
+        
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1800px) {
+    #email img {
+        max-width: 3%;
+    }
+    #bigname {
+        height: 550px;
+    }
+    
+}
+
+@media only screen and (min-width: 1801px) {
+    #email img {
+        max-width: 3%;
+    }
+    #bigname {
+        height: 750px;
+    }
+    #fixed-header #myname {
+        font-size: 45px;
+    }
+    
+    #fixed-header a {
+        text-decoration: none;
+        color: #fafafa;
+        font-size: 30px;
     }
 }
 
