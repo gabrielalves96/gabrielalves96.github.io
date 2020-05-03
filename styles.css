@@ -1,0 +1,63 @@
+@font-face {
+    font-family: cmdFont;
+    src: url('./assets/Modeseven-L3n5.ttf');
+}
+
+html, body {
+    margin: 0;
+    background: #000000;
+    width:100%;
+    height: 100%;
+}
+
+body {
+    box-shadow: inset 0 0 40px rgba(255, 0, 0, 0.3);
+}
+
+#svg8 {
+    display: block;
+    margin: auto;
+    padding-top: 10vh;
+}
+
+#name {
+    text-align: center;
+    font-family: cmdFont;
+    font-size: 40px;
+    color: #ff0000;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#psub {
+    text-align: center;
+    font-family: cmdFont;
+    color: #ff0000;
+    margin-top: 1px;
+}
+
+#icons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.link-icons {
+    width: 3vw;
+}
+
+a:nth-of-type(2) {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+@media screen and (max-width: 800px) {
+    .link-icons {
+        width: 5vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .link-icons {
+        width: 12vw;
+    }
+}
